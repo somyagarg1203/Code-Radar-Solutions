@@ -8,6 +8,6 @@ int main(){
         printf("Valid");
     }
     else{
-        pritnf("Invalid");
+        printf("Invalid");
     }
 }
