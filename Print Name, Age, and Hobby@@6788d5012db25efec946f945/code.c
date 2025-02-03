@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
     char name[50], hobby[50];
+    int age;
     printf("");
     scanf("%s", name);
     printf("");
