@@ -4,5 +4,5 @@ int main(){
     printf("Enter an integer: ");
     scanf("%d",&num);
     printf("You entered: %d\n", num);
-    returen 0;
+    return 0;
 }
