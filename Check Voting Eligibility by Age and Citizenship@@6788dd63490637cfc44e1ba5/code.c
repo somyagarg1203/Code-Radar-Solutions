@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
     int a,status;
-    scanf("%d %d",&a,&status);
+    scanf("%d ",&a);
+    scanf("%d",&status);
     if(status==1){
         if(a>=18){
             printf("Eligible");
