@@ -1,12 +1,18 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    if(a>=18&&a==1){
-        printf("Eligible");
-        if(a<18&&a==0){
+    int a,status;
+    scanf("%d %d",&a,&status);
+    if(status==1){
+        if(a>=18){
+            printf("Eligible");
+        }
+        else{
             printf("Not Eligible");
         }
+        else{
+            printf("No Eligible");
+        }
     }
+   
     
 }
