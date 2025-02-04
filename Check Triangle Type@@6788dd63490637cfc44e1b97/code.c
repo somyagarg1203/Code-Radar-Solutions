@@ -11,4 +11,5 @@ int main(){
     else{
         printf("Scalene\n");
     }
+    return 0;
 }
