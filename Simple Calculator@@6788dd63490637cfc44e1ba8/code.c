@@ -27,8 +27,6 @@ int main() {
         return 1;
     }
 
-    // Printing the result
-    printf("Result: %.2f\n", result);
 
     return 0;
 }
