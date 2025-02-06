@@ -1,14 +1,20 @@
-#include<stdio.h>
-int main(){
-    int rows, i,j;
-    scanf("%d",&rows);
-    for(i=0;i<rows+1;i++){
-        printf("*");
-        printf(" ");
-        for (j=0;j<1;j++){
-            printf("*");
-            printf(" ");
+#include <stdio.h>
+
+void printSquarePattern(int N) {
+    for(int i = 0; i < N; i++) {
+        for(int j = 0; j < N; j++) {
+            printf("* ");
         }
-        printf('\n');
+        printf("\n");
     }
+}
+
+int main() {
+    int N;
+   
+    scanf("%d", &N);
+
+    printSquarePattern(N);
+
+    return 0;
 }
