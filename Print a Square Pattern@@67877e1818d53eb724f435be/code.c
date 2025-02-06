@@ -1,5 +1,5 @@
 #include <stdio.h>
-void printSquarePattern(int N) {
+void Square(int N) {
     for(int i = 0; i < N; i++) {
         for(int j = 0; j < N; j++) {
             printf("* ");
@@ -10,6 +10,6 @@ void printSquarePattern(int N) {
 int main() {
     int N;
     scanf("%d", &N);
-    printSquarePattern(N);
+    Square(N);
     return 0;
 }
