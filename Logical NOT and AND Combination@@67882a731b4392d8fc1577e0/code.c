@@ -2,9 +2,9 @@
 int main(){
     int num1,num2;
     scanf("%d %d",&num1,&num2);
-    if(!num>0&&(!num2>0));
+    if(!(num>0)&&!(num2>0))
     {
-        printf("True")
+        printf("True");
     }
     else{
         printf("False");
