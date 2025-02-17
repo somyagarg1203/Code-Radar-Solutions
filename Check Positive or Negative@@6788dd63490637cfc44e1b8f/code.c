@@ -9,8 +9,5 @@ int main(){
     printf("Zero\n");}
     if(a<0){
         printf("Negative\n");
-    }
-
-
-    
+    }   
 }
